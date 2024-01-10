@@ -1,0 +1,5 @@
+CREATE TABLE userdetails (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(255) NOT NULL,Email varchar(255) NOT NULL,
+    Phone_number number(10) NOT NULL,password VARCHAR(255) NOT NULL,Confirm_Password varchar(255) NOT NULL
+);
